@@ -1,0 +1,68 @@
+.footer {
+
+    background-color: rgba(0, 0, 0, 0.67); /* Couleur avec opacité pour l'arrière-plan */
+    position: relative;
+    height: 45vh;
+    filter: none; /* Annule l'opacité sur le texte et les icônes */
+    margin-top: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.footer h6 {
+    color: #F7962F;
+    font-family: 'Marck Script';
+    font-size: 4.5rem;
+}
+
+.footer p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    max-width: 134ch;
+    padding-bottom: 10px;
+}
+
+.social-icons {
+    font-size: 55px;
+    color: white;
+    display: flex;
+    gap: 35px;
+    padding-bottom: 45px;
+}
+.custom-search2 {
+    position: relative;
+    width: 500px;
+}
+
+.custom-search2-input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    padding: 10px 100px 10px 20px;
+    line-height: 1;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.custom-search2-botton {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    bottom: 3px;
+    border: 0;
+    background: #F7962F;
+    color: #fff;
+    outline: none;
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 100px;
+    z-index: 2;
+    width: 100px;
+}

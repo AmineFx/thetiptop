@@ -1,0 +1,18 @@
+version: '3'
+services:
+  node-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"  # Port pour le service Node.js (peut être changé)
+    restart: always
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "8086:80"  # Port pour le service Nginx
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf  # Vous pouvez personnaliser la configuration Nginx
+    depends_on:
+      - node-app
+

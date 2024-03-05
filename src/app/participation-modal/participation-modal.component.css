@@ -1,0 +1,45 @@
+.modal {
+  background-color: #5EB44B; /* Couleur de fond principale */
+  color: white; /* Texte en blanc */
+  padding: 20px; /* Espace interne autour du contenu */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+  display: contents;
+}
+
+.modal-header {
+  background-color: #146031; /* Couleur de fond plus foncée pour l'en-tête */
+  padding: 10px 20px; /* Espace interne pour l'en-tête */
+}
+
+.modal-body {
+  padding: 20px; /* Espace interne pour le corps */
+  color: #000;
+  font-weight: 500;
+}
+
+.modal-footer {
+  padding: 10px 20px; /* Espace interne pour le pied de page */
+  background-color: #146031; /* Couleur de fond pour le pied de page */
+  text-align: right; /* Aligner les boutons ou le texte à droite */
+}
+
+.modal button {
+  background-color: #146031; /* Couleur de fond pour les boutons */
+  color: white; /* Texte en blanc */
+  border: none; /* Pas de bordure pour les boutons */
+  padding: 10px 15px; /* Espace interne pour les boutons */
+  margin: 0 5px; /* Marge autour des boutons */
+  border-radius: 4px; /* Bords légèrement arrondis pour les boutons */
+  cursor: pointer; /* Curseur en forme de main au survol */
+  transition: background-color 0.3s ease; /* Transition douce pour le survol */
+  background: #fff;
+  color: #146031;
+}
+
+.modal button:hover {
+  background-color: #5EB44B; /* Changement de couleur au survol */
+}
+
+.modal button:active {
+  transform: scale(0.98); /* Effet de clic */
+}
